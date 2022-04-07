@@ -20,7 +20,7 @@ const Services = () => {
             <li>
               <BsFillCheckCircleFill className='service__list-icon' />
               <p>
-                Sitios institucionales, personales o blogs
+                Sitios institucionales, <br/> personales o blogs
               </p>
             </li>
             <li>
@@ -51,7 +51,7 @@ const Services = () => {
             <li>
               <BsFillCheckCircleFill className='service__list-icon' />
               <p>
-                Desarrollo y hospedaje web
+                Desarrollo <br/> y hospedaje web
               </p>
             </li>
             <li>
@@ -106,7 +106,7 @@ const Services = () => {
             <li>
               <BsFillCheckCircleFill className='service__list-icon' />
               <p>
-                Analisis de uso de web
+                Analisis de uso de su web
               </p>
             </li>
           </ul>

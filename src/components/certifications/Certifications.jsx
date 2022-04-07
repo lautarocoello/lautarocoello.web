@@ -6,6 +6,7 @@ import scrum from '../../assets/metodologias-agiles.jpg'
 import fullstack from '../../assets/full-stack.jpg'
 import "swiper/css";
 import "swiper/css/pagination"; 
+import "swiper/css/navigation"
 
 const data = [{image: fullstack}, {image: scrum}, {image: big}]
 
@@ -17,10 +18,11 @@ const Certifications = () => {
         <h2 className="text-light">Certificaciones</h2> 
         <Swiper 
            modules={[Navigation, Pagination, ]}
+           navigation={true}
            spaceBetween={50}
            slidesPerView={1}           
            pagination={{ type: "fraction", clickable: true }}
-        //    scrollbar={{ draggable: true }}
+           scrollbar={{ draggable: true }}
            className='container certifications__container'
         >
             {

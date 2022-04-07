@@ -3,7 +3,7 @@ import "./contact.css";
 // import { FiMail } from 'react-icons/fi'
 import { useRef } from "react";
 import emailjs from "emailjs-com";
-const { YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, YOUR_USER_ID } = process.env;
+import swal from 'sweetalert'
 
 const Contact = () => {
   const form = useRef();
@@ -12,20 +12,15 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        YOUR_SERVICE_ID,
-      YOUR_TEMPLATE_ID,
+      .sendForm(    
+        process.env.REACT_APP_YOUR_SERVICE_ID,        
+        process.env.REACT_APP_YOUR_TEMPLATE_ID,
         form.current,
-        YOUR_USER_ID
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+        process.env.REACT_APP_YOUR_USER_ID
+       )
+      swal("Consulta enviada", "Gracias por contactarte, en breve recibiras una respuesta en el email proporcionado", "success")
+      e.target.reset()
+        
   };
 
   return (
