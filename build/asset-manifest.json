@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lautarocoello.web/static/css/main.27fa0b40.css",
-    "main.js": "/lautarocoello.web/static/js/main.40cfaf30.js",
+    "main.js": "/lautarocoello.web/static/js/main.5726e8af.js",
     "static/media/lautaro-coello.png": "/lautarocoello.web/static/media/lautaro-coello.8e46602ee56715ad57bc.png",
     "static/media/excursionapp.jpg": "/lautarocoello.web/static/media/excursionapp.5d7c0ebc945138f967bc.jpg",
     "static/media/CV.pdf": "/lautarocoello.web/static/media/CV.46f0852b8901c6e302e6.pdf",
@@ -11,10 +11,10 @@
     "static/media/full-stack.jpg": "/lautarocoello.web/static/media/full-stack.0cf635823e9fe2b0ab1c.jpg",
     "index.html": "/lautarocoello.web/index.html",
     "main.27fa0b40.css.map": "/lautarocoello.web/static/css/main.27fa0b40.css.map",
-    "main.40cfaf30.js.map": "/lautarocoello.web/static/js/main.40cfaf30.js.map"
+    "main.5726e8af.js.map": "/lautarocoello.web/static/js/main.5726e8af.js.map"
   },
   "entrypoints": [
     "static/css/main.27fa0b40.css",
-    "static/js/main.40cfaf30.js"
+    "static/js/main.5726e8af.js"
   ]
 }
