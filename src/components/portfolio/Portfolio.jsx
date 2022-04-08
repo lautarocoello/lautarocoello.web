@@ -8,7 +8,7 @@ import IMG2 from '../../assets/infopaises.jpg'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5 className='text-light'>Trabajos recientes</h5>
+      <h4 className='text-light'>Trabajos recientes</h4>
       <h2 className="text-light">
         Portfolio
       </h2>
@@ -27,7 +27,7 @@ const Portfolio = () => {
           </div>
           <h3>ExcursionApp</h3>
           <a href="https://www.youtube.com/watch?v=3-HB5SKCRtg">Video</a>
-          <a href="https://excursionapp.vercel.app/" className='btn btn-primary' target='_blank'>Sitio web</a>
+          <a href="https://excursionapp.vercel.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Sitio web</a>
         </article>
         
         {/* <article className="portfolio__item">

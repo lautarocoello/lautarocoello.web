@@ -7,11 +7,11 @@ import SocialIcons from './SocialIcons'
 
 export default function Header() {
   return (
-    <header>
+    <header id="header">
       <div className="container header__container">
-        <h5 className='text-light'>Bienvenidxs </h5>
+        <h4 className='text-light'>Bienvenidxs </h4>
         <h1 className='text-light'>Full Stack Developer 💻</h1>
-        <h2 className="text-ligth">Lautaro Coello</h2>
+        <h2 className="text-light">Lautaro Coello</h2>
         {" "}
         <h3 className="mono text-light">
           <Typical
@@ -29,7 +29,7 @@ export default function Header() {
         <Curriculum />
         <SocialIcons />
         <div className="me">
-          <img src={ME} alt="Lautaro Coello" className='me'/>
+          <img src={ME} alt="Fullstack developer, full stack developer" className='me'/>
         </div>
         <a href="#contact" className='scroll__down'>
           Scroll

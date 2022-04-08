@@ -5,9 +5,9 @@ import {BsFillCheckCircleFill} from 'react-icons/bs'
 const Services = () => {
   return (
     <section id='services'>
-      <h5 className="text-light">
+      <h4 className="text-light">
         ¿En que puedo ayudarte?
-      </h5>
+      </h4>
       <h2 className="text-light">
         Servicios
       </h2>

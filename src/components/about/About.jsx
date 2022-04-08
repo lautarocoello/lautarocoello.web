@@ -14,17 +14,17 @@ const About = () => {
             <div className="about__cards">
               <article className="about__card">
                 <FiAward className='about__icon'/>
-                <h5>Experiencia</h5>
+                <h4>Experiencia</h4>
                 <small>+1 año</small>
               </article>
               <article className="about__card">
                 <VscFolderActive className='about__icon'/>
-                <h5>Proyectos</h5>
+                <h4>Proyectos</h4>
                 <small>Academicos y personales</small>
               </article>
               <article className="about__card">
                 <FiUsers className='about__icon'/>
-                <h5>Trabajos</h5>
+                <h4>Trabajos</h4>
                 <small>- Creacion y manejo de web a clientes personales, algunos tambien con
                 manejo de redes sociales</small>
               </article>              

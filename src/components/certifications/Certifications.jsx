@@ -14,7 +14,7 @@ const data = [{image: fullstack}, {image: scrum}, {image: big}]
 const Certifications = () => {
   return (
     <section id='certifications'>
-        <h5 className='text-light'>Certificaciones oficiales</h5>
+        <h4 className='text-light'>Certificaciones oficiales</h4>
         <h2 className="text-light">Certificaciones</h2> 
         <Swiper 
            modules={[Navigation, Pagination, ]}
