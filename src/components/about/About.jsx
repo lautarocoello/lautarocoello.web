@@ -30,7 +30,8 @@ const About = () => {
               </article>              
             </div>
             <p>
-              Desde que conozco la tecnologia, su crecimiento exponencial y las oportunidaes que brinda no paro de asombrarme de lo maravillosa que es las cosas que se pueden lograr con ella. Actualmente estoy refozando las habilidades técnicas adquiridas en búsqueda de proyectos que me permitan 
+              Desde que conozco la tecnologia, su crecimiento exponencial y las oportunidaes que brinda no paro de asombrarme de lo maravillosa que es, y las cosas que se pueden lograr con ella.<br/>
+              Actualmente estoy refozando las habilidades técnicas adquiridas, en búsqueda de proyectos que me permitan 
               crecer y seguir aprendiendo. Si te interesó mi perfil y queres saber mas sobre mi contáctame!
             </p>
             <a href="#contact" className="btn btn-primary">Concer más</a>
